@@ -14,7 +14,7 @@ always @ (posedge Tick) begin
             state = 1'b0;
         end
     end else begin
-        if (Out == 5'b00000) begin
+        if (In == 5'b00000) begin
             state = 1'b1;
         end
     end

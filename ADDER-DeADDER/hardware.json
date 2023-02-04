@@ -1033,112 +1033,12 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 14 ],
-            "I3": [ 24 ],
-            "O": [ 68 ]
-          }
-        },
-        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_1": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0110100110010110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ 17 ],
-            "I3": [ 15 ],
-            "O": [ 70 ]
-          }
-        },
-        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_10": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0110100110010110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ 41 ],
-            "I3": [ 40 ],
-            "O": [ 59 ]
-          }
-        },
-        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_11": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0110100110010110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ 42 ],
-            "I3": [ 19 ],
-            "O": [ 60 ]
-          }
-        },
-        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_12": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0110100110010110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
             "I2": [ 20 ],
             "I3": [ 18 ],
             "O": [ 61 ]
           }
         },
-        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_13": {
+        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_1": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -1163,7 +1063,7 @@
             "O": [ 62 ]
           }
         },
-        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_14": {
+        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_10": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -1183,12 +1083,12 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 44 ],
-            "I3": [ 43 ],
-            "O": [ 63 ]
+            "I2": [ 14 ],
+            "I3": [ 24 ],
+            "O": [ 68 ]
           }
         },
-        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_15": {
+        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_11": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -1208,112 +1108,12 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 46 ],
-            "I3": [ 45 ],
-            "O": [ 64 ]
+            "I2": [ 17 ],
+            "I3": [ 15 ],
+            "O": [ 70 ]
           }
         },
-        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_16": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0110100110010110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ 48 ],
-            "I3": [ 47 ],
-            "O": [ 65 ]
-          }
-        },
-        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_17": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0110100110010110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ 50 ],
-            "I3": [ 49 ],
-            "O": [ 66 ]
-          }
-        },
-        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_18": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0110100110010110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ 52 ],
-            "I3": [ 51 ],
-            "O": [ 67 ]
-          }
-        },
-        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_19": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0110100110010110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ 53 ],
-            "I3": [ 16 ],
-            "O": [ 69 ]
-          }
-        },
-        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_2": {
+        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_12": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -1338,6 +1138,206 @@
             "O": [ 72 ]
           }
         },
+        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_13": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0110100110010110"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ 27 ],
+            "I3": [ 26 ],
+            "O": [ 73 ]
+          }
+        },
+        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_14": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0110100110010110"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ 29 ],
+            "I3": [ 28 ],
+            "O": [ 74 ]
+          }
+        },
+        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_15": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0110100110010110"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ 31 ],
+            "I3": [ 30 ],
+            "O": [ 75 ]
+          }
+        },
+        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_16": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0110100110010110"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ 33 ],
+            "I3": [ 32 ],
+            "O": [ 76 ]
+          }
+        },
+        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_17": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0110100110010110"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ 35 ],
+            "I3": [ 34 ],
+            "O": [ 77 ]
+          }
+        },
+        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_18": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0110100110010110"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ 37 ],
+            "I3": [ 36 ],
+            "O": [ 78 ]
+          }
+        },
+        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_19": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0110100110010110"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ 39 ],
+            "I3": [ 38 ],
+            "O": [ 58 ]
+          }
+        },
+        "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_2": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0110100110010110"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ADDER-DeADDER.v:15.7-18.2|Clock.v:16.13-16.21|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ 44 ],
+            "I3": [ 43 ],
+            "O": [ 63 ]
+          }
+        },
         "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_20": {
           "hide_name": 0,
           "type": "SB_LUT4",
@@ -1358,9 +1358,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 13 ],
-            "I3": [ 55 ],
-            "O": [ 56 ]
+            "I2": [ 41 ],
+            "I3": [ 40 ],
+            "O": [ 59 ]
           }
         },
         "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_21": {
@@ -1383,9 +1383,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 12 ],
-            "I3": [ 54 ],
-            "O": [ 57 ]
+            "I2": [ 42 ],
+            "I3": [ 19 ],
+            "O": [ 60 ]
           }
         },
         "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_22": {
@@ -1433,9 +1433,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 27 ],
-            "I3": [ 26 ],
-            "O": [ 73 ]
+            "I2": [ 46 ],
+            "I3": [ 45 ],
+            "O": [ 64 ]
           }
         },
         "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_4": {
@@ -1458,9 +1458,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 29 ],
-            "I3": [ 28 ],
-            "O": [ 74 ]
+            "I2": [ 48 ],
+            "I3": [ 47 ],
+            "O": [ 65 ]
           }
         },
         "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_5": {
@@ -1483,9 +1483,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 31 ],
-            "I3": [ 30 ],
-            "O": [ 75 ]
+            "I2": [ 50 ],
+            "I3": [ 49 ],
+            "O": [ 66 ]
           }
         },
         "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_6": {
@@ -1508,9 +1508,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 33 ],
-            "I3": [ 32 ],
-            "O": [ 76 ]
+            "I2": [ 52 ],
+            "I3": [ 51 ],
+            "O": [ 67 ]
           }
         },
         "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_7": {
@@ -1533,9 +1533,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 35 ],
-            "I3": [ 34 ],
-            "O": [ 77 ]
+            "I2": [ 53 ],
+            "I3": [ 16 ],
+            "O": [ 69 ]
           }
         },
         "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_8": {
@@ -1558,9 +1558,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 37 ],
-            "I3": [ 36 ],
-            "O": [ 78 ]
+            "I2": [ 13 ],
+            "I3": [ 55 ],
+            "O": [ 56 ]
           }
         },
         "Count.cclk_SB_DFFSR_Q_D_SB_LUT4_O_9": {
@@ -1583,9 +1583,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 39 ],
-            "I3": [ 38 ],
-            "O": [ 58 ]
+            "I2": [ 12 ],
+            "I3": [ 54 ],
+            "O": [ 57 ]
           }
         },
         "Sub.Out_SB_DFFE_Q": {
@@ -1595,7 +1595,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-21.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-22.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -1617,7 +1617,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-21.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-22.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -1632,6 +1632,31 @@
             "Q": [ 83 ]
           }
         },
+        "Sub.Out_SB_DFFE_Q_1_D_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1100011001101100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 84 ],
+            "I1": [ 8 ],
+            "I2": [ "1" ],
+            "I3": [ 85 ],
+            "O": [ 82 ]
+          }
+        },
         "Sub.Out_SB_DFFE_Q_2": {
           "hide_name": 0,
           "type": "SB_DFFE",
@@ -1639,29 +1664,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-21.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
-          },
-          "port_directions": {
-            "C": "input",
-            "D": "input",
-            "E": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "C": [ 11 ],
-            "D": [ 84 ],
-            "E": [ 80 ],
-            "Q": [ 85 ]
-          }
-        },
-        "Sub.Out_SB_DFFE_Q_3": {
-          "hide_name": 0,
-          "type": "SB_DFFE",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-21.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-22.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -1676,14 +1679,39 @@
             "Q": [ 87 ]
           }
         },
-        "Sub.Out_SB_DFFE_Q_4": {
+        "Sub.Out_SB_DFFE_Q_2_D_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1100011001101100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 84 ],
+            "I1": [ 7 ],
+            "I2": [ "1" ],
+            "I3": [ 88 ],
+            "O": [ 86 ]
+          }
+        },
+        "Sub.Out_SB_DFFE_Q_3": {
           "hide_name": 0,
           "type": "SB_DFFE",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-21.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-22.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -1693,16 +1721,16 @@
           },
           "connections": {
             "C": [ 11 ],
-            "D": [ 88 ],
+            "D": [ 89 ],
             "E": [ 80 ],
-            "Q": [ 89 ]
+            "Q": [ 90 ]
           }
         },
-        "Sub.Out_SB_DFFE_Q_D_SB_LUT4_O": {
+        "Sub.Out_SB_DFFE_Q_3_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
-            "LUT_INIT": "0110100110010110"
+            "LUT_INIT": "1100011001101100"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -1716,97 +1744,44 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ "0" ],
-            "I1": [ 9 ],
-            "I2": [ "1" ],
-            "I3": [ 90 ],
-            "O": [ 79 ]
-          }
-        },
-        "Sub.Out_SB_DFFE_Q_D_SB_LUT4_O_1": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0110100110010110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ 8 ],
-            "I2": [ "1" ],
-            "I3": [ 91 ],
-            "O": [ 82 ]
-          }
-        },
-        "Sub.Out_SB_DFFE_Q_D_SB_LUT4_O_2": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0110100110010110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ 7 ],
-            "I2": [ "1" ],
-            "I3": [ 92 ],
-            "O": [ 84 ]
-          }
-        },
-        "Sub.Out_SB_DFFE_Q_D_SB_LUT4_O_3": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0110100110010110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
+            "I0": [ 84 ],
             "I1": [ 6 ],
             "I2": [ "1" ],
             "I3": [ 5 ],
-            "O": [ 86 ]
+            "O": [ 89 ]
           }
         },
-        "Sub.Out_SB_DFFE_Q_D_SB_LUT4_O_4": {
+        "Sub.Out_SB_DFFE_Q_4": {
           "hide_name": 0,
-          "type": "SB_LUT4",
+          "type": "SB_DFFE",
           "parameters": {
-            "LUT_INIT": "0000000011111111"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:12.34-13.52"
+            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-22.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+          },
+          "port_directions": {
+            "C": "input",
+            "D": "input",
+            "E": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "C": [ 11 ],
+            "D": [ 91 ],
+            "E": [ 80 ],
+            "Q": [ 92 ]
+          }
+        },
+        "Sub.Out_SB_DFFE_Q_4_D_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0000111111110000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:17.34-18.52"
           },
           "port_directions": {
             "I0": "input",
@@ -1818,9 +1793,34 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ "0" ],
+            "I2": [ 84 ],
             "I3": [ 5 ],
-            "O": [ 88 ]
+            "O": [ 91 ]
+          }
+        },
+        "Sub.Out_SB_DFFE_Q_D_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1100011001101100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 84 ],
+            "I1": [ 9 ],
+            "I2": [ "1" ],
+            "I3": [ 93 ],
+            "O": [ 79 ]
           }
         },
         "Sub.Out_SB_DFFE_Q_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -1838,8 +1838,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 91 ],
-            "CO": [ 90 ],
+            "CI": [ 85 ],
+            "CO": [ 93 ],
             "I0": [ 8 ],
             "I1": [ "1" ]
           }
@@ -1859,8 +1859,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 92 ],
-            "CO": [ 91 ],
+            "CI": [ 88 ],
+            "CO": [ 85 ],
             "I0": [ 7 ],
             "I1": [ "1" ]
           }
@@ -1881,9 +1881,34 @@
           },
           "connections": {
             "CI": [ 5 ],
-            "CO": [ 92 ],
+            "CO": [ 88 ],
             "I0": [ 6 ],
             "I1": [ "1" ]
+          }
+        },
+        "Sub.Out_SB_DFFE_Q_E_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 90 ],
+            "I1": [ 87 ],
+            "I2": [ 83 ],
+            "I3": [ 81 ],
+            "O": [ 94 ]
           }
         },
         "Sub.state_SB_DFF_Q": {
@@ -1893,7 +1918,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-21.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
+            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-22.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
           },
           "port_directions": {
             "C": "input",
@@ -1902,15 +1927,15 @@
           },
           "connections": {
             "C": [ 11 ],
-            "D": [ 93 ],
-            "Q": [ 80 ]
+            "D": [ 95 ],
+            "Q": [ 84 ]
           }
         },
         "Sub.state_SB_DFF_Q_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
-            "LUT_INIT": "1110111110000000"
+            "LUT_INIT": "1011111100000000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -1924,18 +1949,43 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 81 ],
-            "I1": [ 89 ],
+            "I0": [ 92 ],
+            "I1": [ 84 ],
             "I2": [ 94 ],
             "I3": [ 80 ],
-            "O": [ 93 ]
+            "O": [ 95 ]
           }
         },
-        "Sub.state_SB_DFF_Q_D_SB_LUT4_O_I2_SB_LUT4_O": {
+        "Sub.state_SB_LUT4_I3": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
-            "LUT_INIT": "1000000000000001"
+            "LUT_INIT": "1111111111000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:22.34-23.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ 96 ],
+            "I2": [ 5 ],
+            "I3": [ 84 ],
+            "O": [ 80 ]
+          }
+        },
+        "Sub.state_SB_LUT4_I3_I1_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1000000000000000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -1949,11 +1999,11 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 81 ],
-            "I1": [ 87 ],
-            "I2": [ 85 ],
-            "I3": [ 83 ],
-            "O": [ 94 ]
+            "I0": [ 6 ],
+            "I1": [ 7 ],
+            "I2": [ 8 ],
+            "I3": [ 9 ],
+            "O": [ 96 ]
           }
         },
         "add.Out_SB_DFFE_Q": {
@@ -1963,7 +2013,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:10.1-21.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:10.1-22.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -1973,9 +2023,9 @@
           },
           "connections": {
             "C": [ 11 ],
-            "D": [ 95 ],
-            "E": [ 96 ],
-            "Q": [ 97 ]
+            "D": [ 97 ],
+            "E": [ 98 ],
+            "Q": [ 99 ]
           }
         },
         "add.Out_SB_DFFE_Q_1": {
@@ -1985,29 +2035,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:10.1-21.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
-          },
-          "port_directions": {
-            "C": "input",
-            "D": "input",
-            "E": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "C": [ 11 ],
-            "D": [ 98 ],
-            "E": [ 96 ],
-            "Q": [ 99 ]
-          }
-        },
-        "add.Out_SB_DFFE_Q_2": {
-          "hide_name": 0,
-          "type": "SB_DFFE",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:10.1-21.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:10.1-22.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -2018,8 +2046,80 @@
           "connections": {
             "C": [ 11 ],
             "D": [ 100 ],
-            "E": [ 96 ],
+            "E": [ 98 ],
             "Q": [ 101 ]
+          }
+        },
+        "add.Out_SB_DFFE_Q_1_D_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1010010111110000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 102 ],
+            "I1": [ "0" ],
+            "I2": [ 8 ],
+            "I3": [ 103 ],
+            "O": [ 100 ]
+          }
+        },
+        "add.Out_SB_DFFE_Q_2": {
+          "hide_name": 0,
+          "type": "SB_DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:10.1-22.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+          },
+          "port_directions": {
+            "C": "input",
+            "D": "input",
+            "E": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "C": [ 11 ],
+            "D": [ 104 ],
+            "E": [ 98 ],
+            "Q": [ 105 ]
+          }
+        },
+        "add.Out_SB_DFFE_Q_2_D_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1010010111110000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 102 ],
+            "I1": [ "0" ],
+            "I2": [ 7 ],
+            "I3": [ 106 ],
+            "O": [ 104 ]
           }
         },
         "add.Out_SB_DFFE_Q_3": {
@@ -2029,7 +2129,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:10.1-21.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:10.1-22.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -2039,9 +2139,34 @@
           },
           "connections": {
             "C": [ 11 ],
-            "D": [ 102 ],
-            "E": [ 96 ],
-            "Q": [ 103 ]
+            "D": [ 107 ],
+            "E": [ 98 ],
+            "Q": [ 108 ]
+          }
+        },
+        "add.Out_SB_DFFE_Q_3_D_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1010010111110000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 102 ],
+            "I1": [ "0" ],
+            "I2": [ 6 ],
+            "I3": [ 5 ],
+            "O": [ 107 ]
           }
         },
         "add.Out_SB_DFFE_Q_4": {
@@ -2051,7 +2176,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:10.1-21.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:10.1-22.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -2061,16 +2186,41 @@
           },
           "connections": {
             "C": [ 11 ],
-            "D": [ 88 ],
-            "E": [ 96 ],
-            "Q": [ 104 ]
+            "D": [ 109 ],
+            "E": [ 98 ],
+            "Q": [ 110 ]
+          }
+        },
+        "add.Out_SB_DFFE_Q_4_D_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1111000000001111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:17.34-18.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ 102 ],
+            "I3": [ 5 ],
+            "O": [ 109 ]
           }
         },
         "add.Out_SB_DFFE_Q_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
-            "LUT_INIT": "0110100110010110"
+            "LUT_INIT": "1010010111110000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -2084,22 +2234,22 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ "0" ],
+            "I0": [ 102 ],
             "I1": [ "0" ],
             "I2": [ 9 ],
-            "I3": [ 105 ],
-            "O": [ 95 ]
+            "I3": [ 111 ],
+            "O": [ 97 ]
           }
         },
-        "add.Out_SB_DFFE_Q_D_SB_LUT4_O_1": {
+        "add.Out_SB_DFFE_Q_D_SB_LUT4_O_I0_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
-            "LUT_INIT": "0110100110010110"
+            "LUT_INIT": "1100000000000000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:22.34-23.52"
           },
           "port_directions": {
             "I0": "input",
@@ -2110,60 +2260,35 @@
           },
           "connections": {
             "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ 8 ],
-            "I3": [ 106 ],
-            "O": [ 98 ]
-          }
-        },
-        "add.Out_SB_DFFE_Q_D_SB_LUT4_O_2": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0110100110010110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ 7 ],
-            "I3": [ 107 ],
-            "O": [ 100 ]
-          }
-        },
-        "add.Out_SB_DFFE_Q_D_SB_LUT4_O_3": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0110100110010110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ 6 ],
-            "I3": [ 5 ],
+            "I1": [ 112 ],
+            "I2": [ 99 ],
+            "I3": [ 110 ],
             "O": [ 102 ]
+          }
+        },
+        "add.Out_SB_DFFE_Q_D_SB_LUT4_O_I0_SB_LUT4_O_I1_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1100000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:22.34-23.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ 108 ],
+            "I2": [ 105 ],
+            "I3": [ 101 ],
+            "O": [ 112 ]
           }
         },
         "add.Out_SB_DFFE_Q_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -2181,8 +2306,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 106 ],
-            "CO": [ 105 ],
+            "CI": [ 103 ],
+            "CO": [ 111 ],
             "I0": [ "0" ],
             "I1": [ 8 ]
           }
@@ -2202,8 +2327,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 107 ],
-            "CO": [ 106 ],
+            "CI": [ 106 ],
+            "CO": [ 103 ],
             "I0": [ "0" ],
             "I1": [ 7 ]
           }
@@ -2224,7 +2349,7 @@
           },
           "connections": {
             "CI": [ 5 ],
-            "CO": [ 107 ],
+            "CO": [ 106 ],
             "I0": [ "0" ],
             "I1": [ 6 ]
           }
@@ -2236,7 +2361,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:10.1-21.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
+            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:10.1-22.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
           },
           "port_directions": {
             "C": "input",
@@ -2245,15 +2370,15 @@
           },
           "connections": {
             "C": [ 11 ],
-            "D": [ 108 ],
-            "Q": [ 96 ]
+            "D": [ 113 ],
+            "Q": [ 98 ]
           }
         },
         "add.state_SB_DFF_Q_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
-            "LUT_INIT": "0111111100010000"
+            "LUT_INIT": "0000111101000100"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -2267,18 +2392,18 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 97 ],
-            "I1": [ 104 ],
-            "I2": [ 109 ],
-            "I3": [ 96 ],
-            "O": [ 108 ]
+            "I0": [ 7 ],
+            "I1": [ 114 ],
+            "I2": [ 102 ],
+            "I3": [ 98 ],
+            "O": [ 113 ]
           }
         },
-        "add.state_SB_DFF_Q_D_SB_LUT4_O_I2_SB_LUT4_O": {
+        "add.state_SB_DFF_Q_D_SB_LUT4_O_I1_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
-            "LUT_INIT": "1000000000000001"
+            "LUT_INIT": "0000000000000001"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -2292,11 +2417,11 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 97 ],
-            "I1": [ 103 ],
-            "I2": [ 101 ],
-            "I3": [ 99 ],
-            "O": [ 109 ]
+            "I0": [ 6 ],
+            "I1": [ 8 ],
+            "I2": [ 5 ],
+            "I3": [ 9 ],
+            "O": [ 114 ]
           }
         },
         "add.state_SB_LUT4_I3": {
@@ -2319,9 +2444,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ 81 ],
-            "I2": [ 97 ],
-            "I3": [ 96 ],
-            "O": [ 110 ]
+            "I2": [ 99 ],
+            "I3": [ 98 ],
+            "O": [ 115 ]
           }
         },
         "add.state_SB_LUT4_I3_1": {
@@ -2344,9 +2469,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ 83 ],
-            "I2": [ 99 ],
-            "I3": [ 96 ],
-            "O": [ 111 ]
+            "I2": [ 101 ],
+            "I3": [ 98 ],
+            "O": [ 116 ]
           }
         },
         "add.state_SB_LUT4_I3_2": {
@@ -2368,10 +2493,10 @@
           },
           "connections": {
             "I0": [ "0" ],
-            "I1": [ 85 ],
-            "I2": [ 101 ],
-            "I3": [ 96 ],
-            "O": [ 112 ]
+            "I1": [ 87 ],
+            "I2": [ 105 ],
+            "I3": [ 98 ],
+            "O": [ 117 ]
           }
         },
         "add.state_SB_LUT4_I3_3": {
@@ -2393,10 +2518,10 @@
           },
           "connections": {
             "I0": [ "0" ],
-            "I1": [ 87 ],
-            "I2": [ 103 ],
-            "I3": [ 96 ],
-            "O": [ 113 ]
+            "I1": [ 90 ],
+            "I2": [ 108 ],
+            "I3": [ 98 ],
+            "O": [ 118 ]
           }
         },
         "add.state_SB_LUT4_I3_4": {
@@ -2418,10 +2543,10 @@
           },
           "connections": {
             "I0": [ "0" ],
-            "I1": [ 89 ],
-            "I2": [ 104 ],
-            "I3": [ 96 ],
-            "O": [ 114 ]
+            "I1": [ 92 ],
+            "I2": [ 110 ],
+            "I3": [ 98 ],
+            "O": [ 119 ]
           }
         },
         "led_SB_DFF_Q": {
@@ -2440,7 +2565,7 @@
           },
           "connections": {
             "C": [ 11 ],
-            "D": [ 110 ],
+            "D": [ 115 ],
             "Q": [ 9 ]
           }
         },
@@ -2460,7 +2585,7 @@
           },
           "connections": {
             "C": [ 11 ],
-            "D": [ 111 ],
+            "D": [ 116 ],
             "Q": [ 8 ]
           }
         },
@@ -2480,7 +2605,7 @@
           },
           "connections": {
             "C": [ 11 ],
-            "D": [ 112 ],
+            "D": [ 117 ],
             "Q": [ 7 ]
           }
         },
@@ -2500,7 +2625,7 @@
           },
           "connections": {
             "C": [ 11 ],
-            "D": [ 113 ],
+            "D": [ 118 ],
             "Q": [ 6 ]
           }
         },
@@ -2520,7 +2645,7 @@
           },
           "connections": {
             "C": [ 11 ],
-            "D": [ 114 ],
+            "D": [ 119 ],
             "Q": [ 5 ]
           }
         }
@@ -2582,26 +2707,61 @@
         },
         "Sub.Out": {
           "hide_name": 0,
-          "bits": [ 89, 87, 85, 83, 81 ],
+          "bits": [ 92, 90, 87, 83, 81 ],
           "attributes": {
             "hdlname": "Sub Out",
             "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:6.22-6.25"
           }
         },
+        "Sub.Out_SB_DFFE_Q_1_D": {
+          "hide_name": 0,
+          "bits": [ 82 ],
+          "attributes": {
+            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-22.4"
+          }
+        },
+        "Sub.Out_SB_DFFE_Q_2_D": {
+          "hide_name": 0,
+          "bits": [ 86 ],
+          "attributes": {
+            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-22.4"
+          }
+        },
+        "Sub.Out_SB_DFFE_Q_3_D": {
+          "hide_name": 0,
+          "bits": [ 89 ],
+          "attributes": {
+            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-22.4"
+          }
+        },
+        "Sub.Out_SB_DFFE_Q_4_D": {
+          "hide_name": 0,
+          "bits": [ 91 ],
+          "attributes": {
+            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-22.4"
+          }
+        },
         "Sub.Out_SB_DFFE_Q_D": {
           "hide_name": 0,
-          "bits": [ 88, 86, 84, 82, 79 ],
+          "bits": [ 79 ],
           "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:33.26-33.27"
+            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-22.4"
           }
         },
         "Sub.Out_SB_DFFE_Q_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ "1", 5, 92, 91, 90 ],
+          "bits": [ "1", 5, 88, 85, 93 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:51.21-51.22"
+          }
+        },
+        "Sub.Out_SB_DFFE_Q_E": {
+          "hide_name": 0,
+          "bits": [ 92, 84, 94, 80 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "Sub.Tick": {
@@ -2614,7 +2774,7 @@
         },
         "Sub.state": {
           "hide_name": 0,
-          "bits": [ 80 ],
+          "bits": [ 84 ],
           "attributes": {
             "hdlname": "Sub state",
             "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:8.16-8.21"
@@ -2622,14 +2782,14 @@
         },
         "Sub.state_SB_DFF_Q_D": {
           "hide_name": 0,
-          "bits": [ 93 ],
+          "bits": [ 95 ],
           "attributes": {
-            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-21.4"
+            "src": "ADDER-DeADDER.v:26.12-30.2|Subtractor.v:10.1-22.4"
           }
         },
-        "Sub.state_SB_DFF_Q_D_SB_LUT4_O_I2": {
+        "Sub.state_SB_LUT4_I3_I1": {
           "hide_name": 0,
-          "bits": [ 81, 89, 94, 80 ],
+          "bits": [ 96, 5, 84 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -2645,23 +2805,61 @@
         },
         "add.Out": {
           "hide_name": 0,
-          "bits": [ 104, 103, 101, 99, 97 ],
+          "bits": [ 110, 108, 105, 101, 99 ],
           "attributes": {
             "hdlname": "add Out",
             "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:6.22-6.25"
           }
         },
+        "add.Out_SB_DFFE_Q_1_D": {
+          "hide_name": 0,
+          "bits": [ 100 ],
+          "attributes": {
+          }
+        },
+        "add.Out_SB_DFFE_Q_2_D": {
+          "hide_name": 0,
+          "bits": [ 104 ],
+          "attributes": {
+          }
+        },
+        "add.Out_SB_DFFE_Q_3_D": {
+          "hide_name": 0,
+          "bits": [ 107 ],
+          "attributes": {
+          }
+        },
+        "add.Out_SB_DFFE_Q_4_D": {
+          "hide_name": 0,
+          "bits": [ 109 ],
+          "attributes": {
+          }
+        },
         "add.Out_SB_DFFE_Q_D": {
           "hide_name": 0,
-          "bits": [ 88, 102, 100, 98, 95 ],
+          "bits": [ 97 ],
+          "attributes": {
+          }
+        },
+        "add.Out_SB_DFFE_Q_D_SB_LUT4_O_I0": {
+          "hide_name": 0,
+          "bits": [ 102, "0", 6, 5 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:33.26-33.27"
+            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
+          }
+        },
+        "add.Out_SB_DFFE_Q_D_SB_LUT4_O_I0_SB_LUT4_O_I1": {
+          "hide_name": 0,
+          "bits": [ 112, 99, 110 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "add.Out_SB_DFFE_Q_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ "0", 5, 107, 106, 105 ],
+          "bits": [ "0", 5, 106, 103, 111 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:12.16-12.25|C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:51.21-51.22"
@@ -2677,7 +2875,7 @@
         },
         "add.state": {
           "hide_name": 0,
-          "bits": [ 96 ],
+          "bits": [ 98 ],
           "attributes": {
             "hdlname": "add state",
             "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:8.16-8.21"
@@ -2685,14 +2883,14 @@
         },
         "add.state_SB_DFF_Q_D": {
           "hide_name": 0,
-          "bits": [ 108 ],
+          "bits": [ 113 ],
           "attributes": {
-            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:10.1-21.4"
+            "src": "ADDER-DeADDER.v:20.7-25.2|Adder.v:10.1-22.4"
           }
         },
-        "add.state_SB_DFF_Q_D_SB_LUT4_O_I2": {
+        "add.state_SB_DFF_Q_D_SB_LUT4_O_I1": {
           "hide_name": 0,
-          "bits": [ 97, 104, 109, 96 ],
+          "bits": [ 7, 114, 102, 98 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\john\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -2700,7 +2898,7 @@
         },
         "addout": {
           "hide_name": 0,
-          "bits": [ 104, 103, 101, 99, 97 ],
+          "bits": [ 110, 108, 105, 101, 99 ],
           "attributes": {
             "src": "ADDER-DeADDER.v:9.12-9.18"
           }
@@ -2728,7 +2926,7 @@
         },
         "led_SB_DFF_Q_D": {
           "hide_name": 0,
-          "bits": [ 114, 113, 112, 111, 110 ],
+          "bits": [ 119, 118, 117, 116, 115 ],
           "attributes": {
             "src": "ADDER-DeADDER.v:32.1-38.4"
           }
@@ -2742,14 +2940,14 @@
         },
         "state": {
           "hide_name": 0,
-          "bits": [ 96 ],
+          "bits": [ 98 ],
           "attributes": {
             "src": "ADDER-DeADDER.v:13.6-13.11"
           }
         },
         "subout": {
           "hide_name": 0,
-          "bits": [ 89, 87, 85, 83, 81 ],
+          "bits": [ 92, 90, 87, 83, 81 ],
           "attributes": {
             "src": "ADDER-DeADDER.v:11.12-11.18"
           }

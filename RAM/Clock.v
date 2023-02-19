@@ -1,6 +1,7 @@
 module Clock (
 // INPUTS
 	input	clk,
+	input	reset,
 // Outputs
 	output reg Dclk
 );
@@ -8,12 +9,16 @@ module Clock (
 reg [22:0] cclk;
 // clock counter, also counter
 always @ (posedge clk) begin
-	if (cclk[22:20] == 3'b101) begin
-	cclk = 24'b0;
-	Dclk <= 1;
+	if (reset) begin
+		cclk <= 23'b00000000000000000000000;
 	end else begin
-	Dclk <= 0;
-    cclk <= cclk + 1;
+		if (cclk[22:20] == 3'b101) begin
+			cclk = 24'b0;
+			Dclk <= 1;
+		end else begin
+			Dclk <= 0;
+			cclk <= cclk + 1;
+		end
 	end
 end
 endmodule

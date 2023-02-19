@@ -19,20 +19,21 @@ reg [7:0] mem [0:15];
 
 always @ (posedge clock or posedge reset) begin
     if (reset) begin
+        ReadReady = 0;
         WriteReady = 0;
         $readmemh(INIT, mem);
     end else begin
-        if (write) begin
-            mem[WriteAddr] <= WriteData;
-            WriteReady = 0;
-        end else begin
-            WriteReady = 1;
-        end
         if (read) begin
             ReadData <= mem[ReadAddr];
             ReadReady = 0;
         end else begin
             ReadReady = 1;
+        end        
+        if (write) begin
+            mem[WriteAddr] <= WriteData;
+            WriteReady = 0;
+        end else begin
+            WriteReady = 1;
         end
     end
 end

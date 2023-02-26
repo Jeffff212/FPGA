@@ -25,9 +25,9 @@ always @ (posedge clock or posedge reset) begin
     end else begin
         if (read) begin
             ReadData <= mem[ReadAddr];
-            ReadReady = 0;
+            ReadReady <= 1;
         end else begin
-            ReadReady = 1;
+            ReadReady <= 0;
         end        
         if (write) begin
             mem[WriteAddr] <= WriteData;

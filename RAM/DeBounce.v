@@ -2,6 +2,7 @@ module DeBounce (
 // INPUTS
 	input clk,
 	input in,
+	input reset,
 // Outputs
 	output reg out
 );
@@ -14,7 +15,14 @@ reg Dout;
 
 reg state;
 
-always @ (posedge clk) begin
+always @ (reset) begin
+	Dclk <= 0;
+	DB <= 0;
+	out <= 0;
+	state <= 0;
+end
+
+always @ (posedge clk & ~reset) begin
 	if (Dclk[2:1] == 2'b11) begin
 		Dclk[2:1] <= 2'b00;
 		Dout = 1;
@@ -24,7 +32,7 @@ always @ (posedge clk) begin
 	end
 end
 
-always @ (posedge Dout) begin
+always @ (posedge Dout & ~reset) begin
 	if (state) begin
 		if (in == 0) begin
 			if (DB[5:4] == 2'b11) begin

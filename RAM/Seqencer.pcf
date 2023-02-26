@@ -11,3 +11,4 @@ set_io  led[4]  95
 set_io	-pullup yes pmod[0] 78
 set_io	-pullup yes pmod[1] 79
 set_io	-pullup yes pmod[2] 80
+set_io	-pullup yes pmod[3] 81

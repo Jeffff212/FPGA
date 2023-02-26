@@ -11,9 +11,9 @@ end
 
 initial begin
     #1
-    reset = 1;
+    pmod[3:3] = 0;
     #250
-    reset = 0;
+    pmod[3:3] = 1;
 end
 
 initial begin
@@ -24,50 +24,22 @@ initial begin
     $display("Finished");
     $finish;
 end
+sequencer sequencer(
+    .clk(clk),
+    .pmod(pmod),
 
-always @ (posedge WriteReady or negedge WriteReady) begin
-    if (WriteReady) begin
-        WriteAddr <= WriteAddr + 1;
-        WriteData <= $urandom_range(255,0);
-        write <= 1;
-    end else begin
-        write <= 0;
-    end
-end
-always @ (posedge clk) begin
-    if (ReadReady & read) begin
-        Data <= ReadData;
-        read = 0;
-    end else if (ReadReady) begin
-        ReadAddr <= ReadAddr + 1;
-        read <= 1;
-    end
-end
-RAM RAM(
-    .clock(clk),
-    .WriteReady(WriteReady),
-    .ReadReady(ReadReady),
-    .write(write),
-    .read(read),
-    .WriteAddr(WriteAddr),
-    .ReadAddr(ReadAddr),
-    .WriteData(WriteData),
-    .ReadData(ReadData),
-    .reset(reset)
+    .led(led)
 );
-reg [0:0] write = 0;
-reg [0:0] read = 0;
+reg [3:0] pmod = 4'b1111;
 
-reg [7:0] Data;
+always begin
+    #300
+    pmod[1:0] <= $urandom_range(3,0);
+end
 
-reg counter = 1'b0;
-
-reg [3:0] WriteAddr = 4'b0000;
-reg [3:0] ReadAddr = 4'b0000;
-reg [7:0] WriteData = 8'b0000000;
-wire [7:0] ReadData;
-wire WriteReady;
-wire ReadReady;
-wire TechReadReady;
+always begin
+    #($urandom_range(400,600));
+    pmod[2:2] <= $urandom_range(0,1);
+end
 
 endmodule

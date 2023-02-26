@@ -1,4 +1,7 @@
-module Clock (
+module Clock # (
+	parameter COUNTERSIZE = 24,
+	parameter COUNTERLIMIT = 6000000-1
+) (
 // INPUTS
 	input	clk,
 	input	reset,
@@ -6,17 +9,17 @@ module Clock (
 	output reg Dclk
 );
 // this is the clock counter that will 
-reg [22:0] cclk;
+reg [COUNTERSIZE-1:0] cclk;
 // clock counter, also counter
 always @ (posedge clk) begin
 	if (reset) begin
-		cclk <= 23'b00000000000000000000000;
+		cclk <= 0;
+		Dclk <= 0;
 	end else begin
-		if (cclk[22:20] == 3'b101) begin
-			cclk = 24'b0;
-			Dclk <= 1;
+		if (cclk == COUNTERLIMIT) begin
+			cclk <= 0;
+			Dclk <= ~Dclk;
 		end else begin
-			Dclk <= 0;
 			cclk <= cclk + 1;
 		end
 	end

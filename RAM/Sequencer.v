@@ -1,17 +1,21 @@
 module sequencer(
     input clk,
-    input [2:0]pmod,
+    input [3:0]pmod,
 
     output reg [1:0]led
 );
 DeBounce DeBounce (
 // INPUTS
+    .reset(reset),
     .in(~pmod[0]),
     .clk(clk),
 // Outputs
     .out(PWrite)
 );
-Clock clock (
+Clock #(
+    .COUNTERSIZE(6),
+    .COUNTERLIMIT(6)
+) clock  (
 // INPUTS
     .clk(clk),
     .reset(reset),
@@ -24,37 +28,60 @@ RAM RAM (
     .clock(clk),
     .read(read),
     .write(write),
-    .WriteAddr(Addr),
-    .ReadAddr(Addr),
+    .WriteAddr(WriteAddr),
+    .ReadAddr(ReadAddr),
     .WriteData(WriteData),
 // Outputs
     .ReadData(ReadData)
 );
-reg [1:0] data;
 
 reg [7:0] WriteData;
+
+wire [7:0] ReadData;
+
+assign reset = ~pmod[3:3];
+
+assign button = ~pmod[2:1];
+
+wire [1:0] button;
 
 reg write;
 reg read;
 reg ADDRSHIFT;
+reg EnWrite;
 
-reg [3:0] Addr;
+reg [1:0] WriteAddr;
+reg [1:0] ReadAddr;
 
-always @ (posedge PWrite) begin
-    if (PWrite) begin
-        WriteData <= data;
+
+// make a write semaphor
+always @ (posedge reset) begin
+    ReadAddr <= -1;
+    WriteAddr <= -1;
+end
+always @ (posedge PWrite & ~PWrite) begin
+    EnWrite <= 1;
+end
+always @ (posedge Dclk) begin
+    ADDRSHIFT <= 1;
+    ReadAddr <= ReadAddr + 1;
+    WriteAddr <= WriteAddr + 1;
+end
+always @ (posedge clk & ~reset) begin
+    if (EnWrite & ~write) begin
+        WriteData[1:0] <= button;
+        led <= button;
         write <= 1;
     end else begin
         write <= 0;
+        EnWrite <= 0;
     end
-end
-always @ (negedge clk) begin
-    if (ADDRSHIFT) begin
+    if (ADDRSHIFT & ~read) begin
         read <= 1;
         ADDRSHIFT <= 0;
     end else begin
         read <= 0;
-        data <= ReadData;
+        led <= ReadData;
     end
 end
 endmodule
